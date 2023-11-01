@@ -1,0 +1,13 @@
+aiktc@CO-LAB01-20:~$ telnet 172.16.101.20
+Trying 172.16.101.20...
+Connected to 172.16.101.20.
+Escape character is '^]'.
+Linux Mint 20.2 Uma
+
+CO-LAB01-20 login: aiktc
+Password:
+Last login: Thu Aug 3 16:48:51 IST 2023 from 172.16.101.19 on pts/3
+aiktc@CO-LAB01-20:~$ cat>muskan.txt
+I AM MUSKAN PATEL!!!
+^C
+aiktc@CO-LAB01-20:~$ rm muskan.txt
