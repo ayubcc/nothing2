@@ -1,0 +1,68 @@
+                                                          Experiment No : 4
+
+                                                          NAME: Soban Wajuddin Maruf
+                                                          ROLL NO. : 21CO58
+                                                          BATCH : 4
+                                                          SEM - 5
+
+
+
+                                             Aim - To perform remote login using telnet server
+
+                                    
+
+
+
+aiktc@aiktc14:~$ ping 172.16.108.14
+PING 172.16.108.14 (172.16.108.14) 56(84) bytes of data.
+64 bytes from 172.16.108.14: icmp_seq=1 ttl=64 time=0.041 ms
+64 bytes from 172.16.108.14: icmp_seq=2 ttl=64 time=0.035 ms
+64 bytes from 172.16.108.14: icmp_seq=3 ttl=64 time=0.039 ms
+64 bytes from 172.16.108.14: icmp_seq=4 ttl=64 time=0.045 ms
+--- 172.16.108.14 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3060ms
+rtt min/avg/max/mdev = 0.035/0.040/0.045/0.003 ms
+
+
+
+
+aiktc@aiktc14:~$ telnet 172.16.108.15
+Trying 172.16.108.15...
+Connected to 172.16.108.15.
+Escape character is '^]'.
+Linux Mint 20.3 Una
+aiktc15 login: aiktc
+Password: 
+
+Last login: Fri Aug 11 12:16:10 IST 2023 from 172.16.108.13 on pts/1
+aiktc@aiktc15:~$ mkdir 21co58                     //MKDIR COMMAND
+aiktc@aiktc15:~$ cd 21co58
+aiktc@aiktc15:~/21co58$ cat>Soban.txt              // CAT COMMAND
+
+aiktc@aiktc15:~/21co58$ cat>Soban.txt
+“Forgiveness is the power to choose how things affect you."
+
+Try 'touch --help' for more information.
+aiktc@aiktc15:~/21co58$ cat>Exp_4
+Hello I am soban....
+
+
+
+aiktc@aiktc15:~$ ssh aiktc@172.16.108.15            //SSH 
+aiktc@172.16.108.15's password: 
+
+742 updates can be applied immediately.
+607 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Last login: Fri Aug 11 12:44:03 2023 from 172.16.108.15
+
+aiktc@aiktc15:~$ sudo scp -r 21co58 aiktc@172.16.108.14:./       //COPYING FOLDER FROM ONE DEVICE TO ANOTHER
+
+[sudo] password for aiktc:  
+aiktc@172.16.108.14's password: 
+ 
+Permission denied, please try again.
+aiktc@172.16.108.14's password: 
+Exp_4              
+

@@ -1,0 +1,84 @@
+
+
+                                                          Experiment No : 2
+
+                                                          NAME: Soban Wajuddin Maruf
+                                                          ROLL NO. : 21CO58
+                                                          BATCH : 4
+                                                          SEM - 5
+
+
+
+                                             Aim - Implementing basic networking commands in Linux
+
+
+
+Every computer is connected to some other computer through a network whether internally or externally to exchange some information. This network can be small as some computers connected in your home or office, or can be large or complicated as in large University or the entire Internet. In networking there are various commands that can be used to check the connectivity of the networking devices and it is also required at time of troubleshooting of  devices.  
+
+
+1. PING
+
+   It is short for Packet Internet Groper. The ping command is one of the widely used commands for network troubleshooting. Basically, it inspects the network connectivity between two different nodes.
+
+Syntax: ping <destination> 
+
+
+2. TRACEROOT or TRACERT
+
+   The traceroute command is one of the most helpful commands in the networking field. It's used to balance the network. It identifies the delay and decides the pathway to our target. It determines the location of the network latency and informs it. It follows the path to the destination. It gives the names and recognizes all devices on the path.
+
+Syntax: traceroute <destination>
+
+
+3. NSLOOKUP
+
+   This command is also used to find DNS related query.
+
+Syntax: nslookup<domainName>
+
+4. NETSTAT
+
+   It is short for network statistics. It gives statistical figures of many interfaces, which contain open sockets, connection information, and routing tables.
+It also display connection information.
+
+Syntax: netstate 
+
+
+5. ARP(Address Resolution Protocol)
+
+    ARP stand for address resolution protocol, it allows to add and view cotent into ARP table.
+
+Syntax: Arp
+
+
+6. RARP
+
+    It provides opposite service to ARP, in that it is used when only the ether net address is know and the IP address is needed.
+
+Syntax: Rarp
+
+7. IP
+
+    It is the updated and latest edition of ifconfig command. The command provides the information of every network, such as ifconfig. Also, it can be used to get information about a particular interface.
+
+Syntax: ip addr
+
+8. IFCONFIG
+
+    ifconfig is short for interface configurator. This command is utilized in network inspection, initializing the interface, enabling or disabling an IP address, and configuring an interface with an IP address. Also, it is used to show the network and route interface.
+
+Syntax: ifconfig  
+
+9. DIG
+
+    dig is short for Domain Information Groper. The dig command is an improvised edition of the nslookup command. It is utilized in DNS lookup to reserve the DNS name server. Also, it is used to balance DNS related problems. Mainly, it is used to authorize DNS mappings, host addresses, MX records, and every other DNS record for the best DNS topography understanding.
+
+Synatx: dig <domainname>  
+
+10. ROUTE
+
+    The route command shows and employs the routing table available for our system. Basically, a router is used to detect a better way to transfer the packets around a destination.
+
+Syntax: Route
+
+      
